@@ -1,0 +1,78 @@
+* {margin:0;padding:0;}
+li {list-style: none;}
+a {text-decoration: none;color: black;}
+
+img {
+    width: 100%;
+    display: block;
+}
+.login_img {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 60%;
+}
+.login_id {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.login_id input {
+    padding:7px;
+    width: 70%;
+}
+.login_pw {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login_pw input {
+    padding:7px;
+    width: 70%;
+}
+.login_btn {
+    background-color: #00778a;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 71%;
+    padding: 7px;
+    margin:0 auto;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.login_sns {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.login_sns i {
+    font-size: 20px;
+}
+.login_sns div {
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.login_naver {
+    background-color: green;
+    margin-right: 10px;
+}
+.login_naver a {
+    color: white;
+}
+.login_kakao {
+    background-color: yellow;
+}
+.nomember {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px;
+}

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가누다</title>
+    <link rel="stylesheet" href="./css/detail.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+</head>
+<body>
+
+    <header id="header">
+        <div class="logo">
+            <a href="../../main/main.html"><img src="img/logo.png" alt=""></a>
+        </div>
+        <div class="ham_btn">
+            <input type="checkbox" id="lnb_btn">
+            <label for="lnb_btn">
+                <i class="xi-bars"></i>
+            </label>
+            <div class="lnb">
+                <ul class="lnb_menu">
+                    <li class="login">
+                        <a href="../../login/login.html">
+                            <i class="xi-user"></i>
+                            로그인
+                        </a>
+                    </li>
+                    <li class="lnb_home">
+                        <a href="../../main/main.html">🏠 홈</li></a>
+                    <li>
+                        <div class="lnb_story">
+
+                            <input type="checkbox" id="story_btn" checked>
+                            <label for="story_btn" class="story_open">
+                                <div class="story_open_btn">
+                                    <p>📘 가누다Story</p>
+                                    <i class="xi-plus"></i>
+                                </div>
+                            </label>
+                            <label for="story_btn" class="story_close">
+                                <i class="xi-minus"></i>
+                            </label>
+                            <ul class="story_menu">
+                                <li><a href="../../story/story.html">가누다란 ?</a></li>
+                                <li><a href="../../story/story.html">특허 및 인증</a></li>
+                                <li><a href="../../story/story.html">가누다 원리</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="lnb_product">
+
+                            <input type="checkbox" id="product_btn" checked>
+                            <label for="product_btn" class="product_open">
+                                <div class="product_open_btn">
+                                    <p>📃 전체 상품</p>
+                                    <i class="xi-plus"></i>
+                                </div>  
+                            </label>
+                            <label for="product_btn" class="product_close">
+                                <i class="xi-minus"></i>
+                            </label>
+                            <ul class="product_menu">
+                                <li><a href="../product.html">베개</a></li>
+                                <li><a href="../product.html">냅</a></li>
+                                <li><a href="../product.html">커버</a></li>
+                                <li><a href="../product.html">토퍼</a></li>
+                                <li><a href="../product.html">침대</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="lnb_find">
+                        <a href="../../find/find.html">🔍 매장찾기</a>
+                    </li>
+                </ul>
+                <ul class="lnb_center">
+                    <li>고객센터</li>
+                    <li>1877 - 1515</li>
+                    <li>roa@kanuda.com</li>
+                    <li>평일(월~금) : 09:00 ~ 18:00</li>
+                    <li>점심시간 : 12:00 ~ 13:00</li>
+                    <li>주말 및 공휴일 휴무</li>
+                </ul>
+            </div>
+        </div>
+    </header><!-- header -->
+
+    <div class="product_main">
+        <div class="main_title">
+            <div class="title_btn">
+                <a href="../product.html"><i class="xi-angle-left"></i></a>
+            </div>
+            <div class="title_txt">
+                제품 상세보기
+            </div>
+        </div>
+        <div class="product_img">
+            <img src="img/product.jpg" alt="">
+        </div>
+
+        <div class="product_name">
+            블루라벨 피아노 단품
+        </div>
+        <div class="product_price">
+            249,000 원
+        </div>
+        <div class="product_info">
+            <div class="info_company">
+                <span>제조사</span> 주식회사 티앤아이
+            </div>
+            <div class="info_country">
+                <span>원산지</span> 한국
+            </div>
+            <div class="info_save">
+                <span>적립금</span> 2,480원(1%)
+            </div>
+            <div class="info_delivery">
+                <span>배송비</span> 무료
+            </div>
+        </div>
+        <div class="btn_wrap">
+            <div class="detail_btn">
+                <input type="checkbox" id="buy_info">
+                    <div class="cart_btn">
+                        장바구니
+                    </div>
+                <label for="buy_info" class="open_btn">
+                    <div class="buy_btn">
+                        구매하기
+                    </div>
+                </label>
+                <div class="buy_sheet_wrap">
+                    <label for="buy_info">
+                        <div class="sheet_close">
+                            <i class="xi-angle-down"></i>
+                        </div>
+                    </label>
+                    <div class="buy_sheet">
+                        <div class="sheet_title">
+                            블루라벨 피아노 단품
+                        </div>
+                        <div class="sheet_quantity">
+                            <input type="number" value="1">
+                        </div>
+                        <div class="sheet_price">
+                            248,000원
+                        </div>
+                    </div>
+                    <div class="total_price">
+                        총 합계 금액<span>248,000원</span>
+                    </div>
+                </div><!-- buy_sheet_wrap-->
+                <div class="top_btn">
+                    <a href="#header">
+                        <i class="xi-long-arrow-up"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div><!-- product_main -->
+
+    <div id="info">
+        <div class="info_lnb">
+            <a href="#info">상세정보</a>
+            <a href="#delivery">배송안내</a>
+            <a href="#review">review</a>
+            <a href="#qna">문의하기</a>
+        </div>
+
+        <input type="checkbox" id="product_info">
+
+        <div class="info_img_short">
+            <img src="img/detail_info_short.jpg" alt="">
+        </div>
+        <div class="info_img">
+            <img src="img/detail_info01.jpg" alt="">
+        </div>
+        <div class="info_img">
+            <img src="img/detail_info02.jpg" alt="">
+        </div>
+        <div class="info_img">
+            <img src="img/detail_info03.jpg" alt="">
+        </div>
+        <label for="product_info" class="info_open_btn">
+            <div class="info_open_btn_txt">
+                상세정보 펼쳐보기
+                <i class="xi-angle-down"></i>
+            </div>
+        </label>
+        <label for="product_info" class="info_close_btn">
+            <div class="info_close_btn_txt">
+                상세정보 접기
+                <i class="xi-angle-up"></i>
+            </div>
+        </label>
+    </div><!-- info -->
+
+    <div id="delivery">
+        <div class="delivery_lnb">
+            <a href="#info">상세정보</a>
+            <a href="#delivery">배송안내</a>
+            <a href="#review">review</a>
+            <a href="#qna">문의하기</a>
+        </div>
+
+        <div class="delivery_img">
+            <img src="img/delivery.jpg" alt="">
+        </div>
+    </div><!-- delivery -->
+
+    <div id="review">
+        <div class="review_lnb">
+            <a href="#info">상세정보</a>
+            <a href="#delivery">배송안내</a>
+            <a href="#review">review</a>
+            <a href="#qna">문의하기</a>
+        </div>
+        <div class="review01">
+            <div class="star">
+                ★★★★☆
+            </div>
+            <div class="review_txt">
+                써보고 만족스러워서 추가구매 했습니다.<br>
+                잠잘때 자세교정도 되고 편하고 좋습니다!
+            </div>
+            <div class="review_name">
+                이**<span>2022.05.04</span>
+            </div>
+        </div>
+        <div class="review01">
+            <div class="star">
+                ★★★★☆
+            </div>
+            <div class="review_txt">
+                써보고 만족스러워서 추가구매 했습니다.<br>
+                잠잘때 자세교정도 되고 편하고 좋습니다!
+            </div>
+            <div class="review_name">
+                이**<span>2022.05.04</span>
+            </div>
+        </div>
+        <div class="review01">
+            <div class="star">
+                ★★★★☆
+            </div>
+            <div class="review_txt">
+                써보고 만족스러워서 추가구매 했습니다.<br>
+                잠잘때 자세교정도 되고 편하고 좋습니다!
+            </div>
+            <div class="review_name">
+                이**<span>2022.05.04</span>
+            </div>
+        </div>
+        <div class="review01">
+            <div class="star">
+                ★★★★☆
+            </div>
+            <div class="review_txt">
+                써보고 만족스러워서 추가구매 했습니다.<br>
+                잠잘때 자세교정도 되고 편하고 좋습니다!
+            </div>
+            <div class="review_name">
+                이**<span>2022.05.04</span>
+            </div>
+        </div>
+    </div><!-- review -->
+
+    <div id="qna">
+        <div class="qna_lnb">
+            <a href="#info">상세정보</a>
+            <a href="#delivery">배송안내</a>
+            <a href="#review">review</a>
+            <a href="#qna">문의하기</a>
+        </div>
+        <div class="qna01">
+            <div class="qna_txt">
+                <i class="xi-lock-o"></i>
+                <span>[상품]</span> 상품 관련 문의
+            </div> 
+            <div class="qna_name">
+                이**<span>2022.05.04</span>
+            </div>
+        </div>
+        <div class="qna01">
+            <div class="qna_txt">
+                <i class="xi-lock-o"></i>
+                <span>[배송]</span> 배송 관련 문의
+            </div> 
+            <div class="qna_name">
+                이**<span>2022.05.04</span>
+            </div>
+        </div>
+        <div class="qna01">
+            <div class="qna_txt">
+                <i class="xi-lock-o"></i>
+                <span>[환불]</span> 환불 관련 문의
+            </div> 
+            <div class="qna_name">
+                이**<span>2022.05.04</span>
+            </div>
+        </div>
+        <div class="qna01">
+            <div class="qna_txt">
+                <i class="xi-lock-o"></i>
+                <span>[환불]</span> 상품관련 문의
+            </div> 
+            <div class="qna_name">
+                이**<span>2022.05.04</span>
+            </div>
+        </div>
+    </div><!-- qna -->
+  
+    <footer class="footer">
+        <ul>
+            <li><span>(주)티앤아이</span> 경기도 남양주시 와부읍 수레로319번길 18(월문리 638-20)</li>
+            <li>대표:유영호</li>
+            <li>사업자등록번호 : 126-86-08633</li>
+            <li>통신판매업 신고번호 : 2015-경기남양주-0052호</li>
+            <li>개인정보관리자 : 조우영</li>
+            <li>대표번호 : 1877-1515</li>
+            <li>팩스번호 : 031-521-6913</li>
+            <li>Copyright (c) 2020<span>kanudacare.com</span> all rights reserved</li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
